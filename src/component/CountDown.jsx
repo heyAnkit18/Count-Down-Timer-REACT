@@ -1,7 +1,7 @@
 import React from 'react';
 import TimerInt from './TimerInt';
 import { useState } from 'react';
-import './CountDown.css'; // Add a CSS file for styling
+import './CountDown.css'; 
 
 const CountDown = () => {
     const [currentTime, setCurrentTime] = useState(0);
